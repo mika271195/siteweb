@@ -6,7 +6,7 @@ body {
 ul {
 	padding: 0px !important;
 }
-	.menu-principal {
+.menu-principal {
 	width: 100%;
 	background-color:#252323;
 	height: 60px;
@@ -194,6 +194,13 @@ h3{
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.bloco-imagens-texto::after{
+	width: 100%;
+	display: inline-block;
+	content: '';
+	height: 60px;
+	background: #eeeeee;
+}
 .col-4{
 	float: left;
 	width: 25%;
@@ -208,4 +215,34 @@ h3{
 .col-4 img:hover{
 	margin-top: 10px !important;
 	position: relative;
+}
+.bloco-logos{
+	height: 170px;
+}
+.bloco-logos img{
+	margin-top: 50px;
+}
+.footer h3{
+	text-align: left;
+}
+.footer{
+	background-image: url('../img/footer.png');
+	color: #ffffff
+}
+.footer p{
+	width: 90%;
+	text-align: left;
+}
+.clock{
+	color: #898989!important;
+}
+.clock:before{
+	content: '';
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	float: left;
+	background-image: url('../img/clock.png');
+	background-repeat: no-repeat;
+	padding-left: 5px;	
 }
