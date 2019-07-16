@@ -22,7 +22,7 @@ main, .content{
 	float: left;
 }
 .redes-sociais ul li {
-	margin-left: 15px;s
+	margin-left: 15px;
 	float: right;
 	display: inline-block;
 	list-style: none;
@@ -219,22 +219,28 @@ h3{
 .bloco-logos{
 	height: 170px;
 }
-.bloco-logos img{
-	margin-top: 50px;
-}
-.footer h3{
-	text-align: left;
-}
 .footer{
 	background-image: url('../img/footer.png');
 	color: #ffffff
+}
+.footer h3{
+	text-align: left;
 }
 .footer p{
 	width: 90%;
 	text-align: left;
 }
-.clock{
-	color: #898989!important;
+.footer-2{
+	height: 90px;
+	background-image: url('../img/footer2.png');
+	color: #c1c1c1; 
+}
+.footer-2 p{
+	height: 0px;
+    width: 41%;
+    padding: 2%;
+    float: left;
+    margin-bottom: auto;
 }
 .clock:before{
 	content: '';
@@ -245,4 +251,41 @@ h3{
 	background-image: url('../img/clock.png');
 	background-repeat: no-repeat;
 	padding-left: 5px;	
+}
+.clock{
+	color: #898989!important;
+}
+.localizacao:before, .email:before, .telefone:before{
+	content: '';
+	width: 21px;
+	height: 24px;
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+}
+.localizacao:before{	
+	background-image: url('../img/localizacao.png');
+	background-repeat: no-repeat;
+}
+.localizacao, .email, .telefone{
+	color: #898989!important;
+}
+.email:before{
+	background-image: url('../img/email.png');	
+	background-repeat: no-repeat;
+}
+.telefone:before{
+	background-image: url('../img/telefone.png');
+	background-repeat: no-repeat;
+}
+.redes-sociais-2 ul li {
+	margin-left: 15px;
+	float: right;
+	display: inline-block;
+	list-style: none;
+}
+.redes-sociais-2 {
+	width: 42%;
+    float: left;
+    padding: 18px;
 }
